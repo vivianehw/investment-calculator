@@ -1,27 +1,48 @@
-# EssentialsPractice
+# Investment Calculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0-next.2.
+Investment Calculator is an application built with Angular 18, designed to help users calculate the future value of their investments. The application features a header and an area where users can input their initial investment, annual investment, expected return, and duration (in years). Once the user presses the "Calculate" button, an area will display the calculated future value of the investment.
 
-## Development server
+![EasyTask screenshot](/src/assets/readme/easy-task-screenshot.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Investment Inputs**: Users can enter their initial investment, annual investment, expected return, and duration.
+- **Calculation**: Calculates the future value of the investment based on the provided inputs.
+- **Result Display**: Displays the calculated future value of the investment.
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/vivianehw/investment-calculator.git
+   cd investment-calculator
+   ```
 
-## Running unit tests
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. **Run the application:**
+   ```sh
+   ng serve
+   ```
+   The application will be available at `http://localhost:4200`.
 
-## Running end-to-end tests
+## Usage
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Entering Investment Details:**
+   - Fill in the input fields for initial investment, annual investment, expected return, and duration (in years).
 
-## Further help
+2. **Calculating Future Value:**
+   - Click the "Calculate" button to compute the future value of the investment.
+   - The result will be displayed in the designated area.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. **Reviewing Results:**
+   - The calculated future value will be displayed based on the input values.
+   - Adjust the input values and recalculate as needed.
