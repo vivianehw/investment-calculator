@@ -2,7 +2,7 @@
 
 Investment Calculator is an application built with Angular 18, designed to help users calculate the future value of their investments. The application features a header and an area where users can input their initial investment, annual investment, expected return, and duration (in years). Once the user presses the "Calculate" button, an area will display the calculated future value of the investment.
 
-![EasyTask screenshot](/src/assets/readme/easy-task-screenshot.png)
+![Investment Calculator screenshot](./public/investment-calculator-screenshot.png)
 
 ## Table of Contents
 - [Features](#features)
